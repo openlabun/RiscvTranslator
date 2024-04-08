@@ -23,6 +23,6 @@ npm install --save-dev jest
 npm install --save-dev jest-environment-jsdom
 npm test
 
-Augusto Salazar   
+Shaddia Andrea Acuña Lara 
 Universidad del Norte 2024   
 GNU General Public License v3.0
