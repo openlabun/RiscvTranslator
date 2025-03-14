@@ -26,7 +26,7 @@ jobs:
           cd /home/proyecto/RiscvTranslator/
           git pull origin main
           git status
-          docker stop ba262e88e11e
-          docker rm ba262e88e11e
+          docker stop f0618c26e783
+          docker rm f0618c26e783
           docker build -t riscvtranslatori .
           docker run -d -it -p 5007:80 --restart unless-stopped --name riscvtranslator riscvtranslatori
